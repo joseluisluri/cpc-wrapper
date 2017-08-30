@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/libfloppy.a  CMakeFiles/floppy.dir/cmdtable.cpp.o CMakeFiles/floppy.dir/cmdtabledef.cpp.o CMakeFiles/floppy.dir/drive.cpp.o CMakeFiles/floppy.dir/fdc.cpp.o CMakeFiles/floppy.dir/sector.cpp.o CMakeFiles/floppy.dir/track.cpp.o
+/usr/bin/ranlib ../../../bin/libfloppy.a

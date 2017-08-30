@@ -1,0 +1,14 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/blid/dev/cpc-wrapper
+-- SDL_INCLUDE_DIR:  /usr/include/SDL
+-- SDL_LIBRARY:      /usr/lib/i386-linux-gnu/libSDLmain.a;/usr/lib/i386-linux-gnu/libSDL.so;-lpthread
+-- SDLIMAGE_LIBRARY: /usr/lib/i386-linux-gnu/libSDL_image.so
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+
+  * Roland b4ccb64577fc5cbd3a8e5e9a38932d44d9e26da6 Debug 32bit
+  * CXX_FLAGS_DEBUG..:  -std=c++11 -g   -Wall
+
+  * ROLAND_ROOTDIR: /home/blid/dev/cpc-wrapper/assets
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/blid/dev/cpc-wrapper/cmake-build-debug

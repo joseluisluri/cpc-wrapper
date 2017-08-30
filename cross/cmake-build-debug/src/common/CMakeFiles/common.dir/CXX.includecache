@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/config.h
+
+/home/blid/dev/cpc-wrapper/src/common/prefs.cpp
+prefs.h
+/home/blid/dev/cpc-wrapper/src/common/prefs.h
+config.h
+-
+fstream
+-
+iostream
+-
+cstdlib
+-
+direct.h
+-
+io.h
+-
+unistd.h
+-
+
+/home/blid/dev/cpc-wrapper/src/common/prefs.h
+config.h
+/home/blid/dev/cpc-wrapper/src/common/config.h
+string
+-
+array
+-
+utility
+-
+

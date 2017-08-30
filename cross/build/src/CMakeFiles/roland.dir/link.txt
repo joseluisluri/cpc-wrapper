@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O3 -DNDEBUG -Wall   CMakeFiles/roland.dir/roland.cpp.o  -o ../bin/roland -rdynamic ../bin/libcommon.a ../bin/libcpc.a ../bin/libsdltk.a -Wl,-Bstatic -lSDLmain -Wl,-Bdynamic -lSDL -lpthread ../bin/libfilesys.a ../bin/libfloppy.a ../bin/libz80.a -lSDL_image 

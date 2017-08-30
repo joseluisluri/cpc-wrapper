@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../bin/libcpc.a  CMakeFiles/cpc.dir/colours.cpp.o CMakeFiles/cpc.dir/cpc.cpp.o CMakeFiles/cpc.dir/crtc.cpp.o CMakeFiles/cpc.dir/gatearray.cpp.o CMakeFiles/cpc.dir/keyboard.cpp.o CMakeFiles/cpc.dir/memman.cpp.o CMakeFiles/cpc.dir/ppi.cpp.o CMakeFiles/cpc.dir/psg.cpp.o CMakeFiles/cpc.dir/sound.cpp.o CMakeFiles/cpc.dir/vdu.cpp.o
+/usr/bin/ranlib ../../bin/libcpc.a

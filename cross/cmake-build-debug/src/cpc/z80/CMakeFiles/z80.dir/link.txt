@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/libz80.a  CMakeFiles/z80.dir/z80.cpp.o
+/usr/bin/ranlib ../../../bin/libz80.a

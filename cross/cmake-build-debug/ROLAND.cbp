@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ROLAND"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\assets\;CMake Files\assets\cmake\;CMake Files\conf\;CMake Files\src\;CMake Files\src\common\;CMake Files\src\common\filesys\;CMake Files\src\cpc\;CMake Files\src\cpc\floppy\;CMake Files\src\cpc\z80\;CMake Files\src\sdltk\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roland">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/roland" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 roland"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roland/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/roland" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 roland/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/home/blid/dev/cpc-wrapper"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/home/blid/dev/cpc-wrapper"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filesys">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libfilesys.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 filesys"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="filesys/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libfilesys.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 filesys/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/common/filesys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpc">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libcpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 cpc"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpc/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libcpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 cpc/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="floppy">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libfloppy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 floppy"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="floppy/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libfloppy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 floppy/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/floppy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="z80">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libz80.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 z80"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="z80/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libz80.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 z80/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/cpc/z80/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdltk">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libsdltk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk/cpc"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 sdltk"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdltk/fast">
+				<Option output="/home/blid/dev/cpc-wrapper/cmake-build-debug/bin/libsdltk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="/usr/include/SDL"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/common/filesys"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/z80"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/cpc/floppy"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk"/>
+					<Add directory="/home/blid/dev/cpc-wrapper/src/sdltk/cpc"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/i386-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/i686-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/i386-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 sdltk/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/blid/dev/cpc-wrapper/cmake-build-debug/src/sdltk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/directory.cpp">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/directory.h">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/fileinfo.cpp">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/fileinfo.h">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/filename.cpp">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/filename.h">
+			<Option target="filesys"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/prefs.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/prefs.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/colours.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/colours.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/cpc.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/cpc.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/crtc.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/crtc.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/cmdtable.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/cmdtable.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/cmdtabledef.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/cmdtabledef.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/drive.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/drive.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/fdc.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/fdc.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/sector.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/sector.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/track.cpp">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/track.h">
+			<Option target="floppy"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/gatearray.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/gatearray.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/keyboard.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/keyboard.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/memman.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/memman.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/ppi.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/ppi.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/psg.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/psg.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/sound.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/sound.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/vdu.cpp">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/vdu.h">
+			<Option target="cpc"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/z80/z80.cpp">
+			<Option target="z80"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/z80/z80.h">
+			<Option target="z80"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/roland.cpp">
+			<Option target="roland"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/audio.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/audio.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/border.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/border.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/button.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/button.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvas.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvas.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvasgl.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvasgl.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvasstd.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/canvasstd.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/color.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/color.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/exception.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/exception.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/filelist.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/filelist.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/filelistitem.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/filelistitem.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/glfuncs.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/glfuncs.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/gui.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/gui.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/image.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/image.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/imagefont.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/imagefont.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/keytrans.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/keytrans.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/label.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/label.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/list.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/list.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/listitem.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/listitem.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/video.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/video.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/videogl.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/videogl.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/videostd.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/videostd.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/widget.cpp">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/widget.h">
+			<Option target="sdltk"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/assets/config.h.in">
+			<Option virtualFolder="CMake Files\assets\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/assets/roland.spec.in">
+			<Option virtualFolder="CMake Files\assets\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/assets/uninstall.in">
+			<Option virtualFolder="CMake Files\assets\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/assets/cmake/CompilerSpec.cmake">
+			<Option virtualFolder="CMake Files\assets\cmake\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/assets/cmake/compspec.h.in">
+			<Option virtualFolder="CMake Files\assets\cmake\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/conf/.roland">
+			<Option virtualFolder="CMake Files\conf\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\common\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/common/filesys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\common\filesys\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cpc\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/floppy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cpc\floppy\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/cpc/z80/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\cpc\z80\"/>
+		</Unit>
+		<Unit filename="/home/blid/dev/cpc-wrapper/src/sdltk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\sdltk\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

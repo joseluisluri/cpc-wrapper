@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../bin/libfilesys.a  CMakeFiles/filesys.dir/directory.cpp.o CMakeFiles/filesys.dir/fileinfo.cpp.o CMakeFiles/filesys.dir/filename.cpp.o
+/usr/bin/ranlib ../../../bin/libfilesys.a
