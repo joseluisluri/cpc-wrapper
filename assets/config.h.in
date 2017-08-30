@@ -1,0 +1,58 @@
+/***************************************************************************
+ *   Copyright (C) by Fred Klaus                                           *
+ *       development@fkweb.de                                              *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program; if not, write to the                         *
+ *   Free Software Foundation, Inc.,                                       *
+ *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ ***************************************************************************/
+//! config.h.  Generated from config.h.in by CMake.
+#ifndef ROLAND_CONFIG_H
+#define ROLAND_CONFIG_H
+
+//! normal Debug enabled
+#cmakedefine DEBUG   1
+#cmakedefine NDEBUG  1
+#cmakedefine VERBOSE 1
+
+
+//! Define to the address where bug reports for this package should be sent.
+static const auto PACKAGE_BUGREPORT = "development@fkweb.de";
+
+//! Define to the full name of this package.
+static const auto PACKAGE_NAME = "@PACKAGE_NAME@";
+
+//! Define to the full name and version of this package.
+static const auto PACKAGE_STRING = "@PROJECT_NAME@ @PACKAGE_VERSION@ @CMAKE_BUILD_TYPE@";
+
+//! Define to the one symbol short name of this package.
+static const auto PACKAGE_TARNAME = "@PACKAGE_NAME@";
+
+//! Define to the version of this package.
+static const auto PACKAGE_VERSION = "@PACKAGE_VERSION@";
+
+//! Data directories */
+static const auto DATADIR = "@ROLAND_DATADIR@/";
+static const auto ROMDIR  = "@ROLAND_ROMDIR@/";
+static const auto DISKDIR = "@ROLAND_DISKDIR@/";
+static const auto AMSROM  = "@ROLAND_ROMDIR@/amsdos.rom";
+static const auto CPCROM  = "@ROLAND_ROMDIR@/cpc6128.rom";
+
+//! use mmx
+//! #undef USE_MMX
+
+//! enable Raze Z80
+//! #undef USE_RAZE
+
+#endif // ROLAND_CONFIG_H

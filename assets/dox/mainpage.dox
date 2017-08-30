@@ -1,0 +1,24 @@
+/*! \page mainpage Overview
+
+	\image html cpc6128g.jpg
+
+    <hr>
+    <center> 
+	\ref crtc "The 6845 Cathode Ray Tube Controller (CRTC)" \n
+	\ref cpcx::Crtc "Class Crtc" \n
+
+	\ref ppi8255 "The 8255 Programmable Peripheral Interface (PPI)" \n
+	\ref cpcx::Ppi "Class Ppi" \n
+
+	\ref gatearray "The Gate Array" \n
+	\ref cpcx::GateArray "Class Gate Array" \n
+
+	\ref todo "Todo" \n
+	\ref bug "Bugs" \n
+	\ref README.md "README" \n
+	\ref CHANGELOG.md "CHANGELOG" \n
+	\ref LICENSE "LICENSE" \n
+	</center>
+
+*/
+

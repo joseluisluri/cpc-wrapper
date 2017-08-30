@@ -1,0 +1,67 @@
+language: cpp
+
+compiler:  
+    - gcc
+    
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: linux
+      dist: xenial
+      sudo: required
+    - os: linux
+      dist: jessie
+      sudo: required
+    - os: linux
+      dist: sid
+      sudo: required
+
+before_install:
+  - sudo apt-get update
+  
+install:
+  - sudo apt-get -y install build-essential libsdl1.2-dev libsdl-image1.2-dev
+  - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8" CC="gcc-4.8"; fi
+    
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-4.8
+    - g++-4.8
+    - libsdl1.2-dev
+    - libsdl-image1.2-dev
+  code_climate:
+    repo_token: 39ec1bcef7121f6362df6c0cd19e5210b1b291d3eeeb0a05db0a4d44d593330d
+
+before_script:  
+    - cmake -H. -Bbuild -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DPACKAGE_DEPLOY=DEB -DPACKAGE_NUMBER=$TRAVIS_JOB_NUMBER
+
+script: 
+    - cmake --build build --target package 
+
+os:
+    - linux
+
+before_deploy:
+  - export RELEASE_PKG_FILE=$(ls build/*.deb)
+  - echo "deploying $RELEASE_PKG_FILE to GitHub releases"
+  
+deploy:
+  provider: releases
+  api_key:
+    secure: RMb2gJiQuadQtMK7JXWpSur9S0Lxvo3GZ7rzzgHUxAdjnAne4oLbF0S7m2tZr4BGQehZS3+Juf2maDvS9NIjR5HmPIT1Xqq5xb1lqRrM4sMJfSvMI3T7CIkKsBRHjP7xiocHS1CF2uddTyqaogo+PMABup03gVlRB8MRsQj04sGnHnYSEj3OBL1L86rKOa2YRpOrtvwiLO3ZobpRvRLR9iAyqsZNmQIfqL04wsulJZ9N+IGwUmWNShx06ovXcbvXOiQ88nKsCHbTEr1DqnJ2RdJuHwGCEOEK1umktxNbomevfEELt2lIwTTGMd4T9oIkQVaD1OAciLcIOBfv9qRExBATLrlBx3JtdTIhY565aTqRFxcRvyL30VK7UDYK85JQnV7tK5bXYO+NyG2e19KHkzb1LJ3njD3I1Mq5+1qTpfnnaO8wfsuJYd6MgQmi8JN7QhpIG8XG+ltPiQPZBk6pZ866DwvunHY0GrBR4JQ3JaduU2227/+rvMxLc/jHiURFHLkKbvxeZSldoBDZwaIxXEhakcANngyTHYH8aC8gi7ZjXEHNTjIY22aAFP7amh83zSEZOroF3XI0Zu62etswLmLm01/oJqJin5t+rMEJHuqlXv9NWsg2jUioD20aJDZ1fqcEtvuSqYNF2XiNCTDXe82LH/QRCYo6a2Gyd3U43Sg=
+  file_glob: true
+  file: "${RELEASE_PKG_FILE}"
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: raldus/roland
+    branch: master
+    
+notifications:
+    on_success: change
+    on_failure: change

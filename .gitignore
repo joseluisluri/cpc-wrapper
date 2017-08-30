@@ -1,0 +1,35 @@
+### Build ###
+bin/*
+build/*
+doc/*
+src/config.h
+*.spec
+version
+
+### Backup ###
+*~
+*.bak
+
+### KDE ###
+.directory
+.kateproject
+.swp
+
+### Eclipse ###
+.project
+.cproject
+.settings/
+
+### Vim ###
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+/Default/
